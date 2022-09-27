@@ -18,6 +18,13 @@ header{
     top: 0;
     width: 100%;
 }
-main{
- margin-top: 65px;
+#hero{
+    padding-top: 100px;
+}
+img.avatar{
+    width: 70%;
+    max-width: 100%;
+}
+nav{
+    color: white;
 }
