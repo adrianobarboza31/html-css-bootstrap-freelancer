@@ -12,3 +12,12 @@
 .bg-blu{
     background-color: var(--blu);
 }
+header{
+    height: 90px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+main{
+ margin-top: 65px;
+}
