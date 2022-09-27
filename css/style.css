@@ -1,0 +1,14 @@
+:root{
+    --darkblu:#2C3E50;
+    --lightgreen:#1ABC9C;
+    --blu:#3A546D;
+}
+.bg-darkblu{
+    background-color: var(--darkblu);
+}
+.bg-lightgreen{
+    background-color: var(--lightgreen);
+}
+.bg-blu{
+    background-color: var(--blu);
+}
