@@ -28,3 +28,7 @@ img.avatar{
 nav{
     color: white;
 }
+#portfolio img{
+    width: calc(100% / 3);
+    border-radius: 20px;
+}
