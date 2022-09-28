@@ -3,7 +3,9 @@
     --lightgreen:#1ABC9C;
     --blu:#3A546D;
 }
-
+.cc-green{
+    color: #1ABC9C;
+}
 .bg-darkblu{
     background-color: var(--darkblu);
 }
@@ -112,6 +114,31 @@ div.ab-btn{
     text-decoration: none;
     color: white;
 }
+i{
+    font-size: 20px;
+    color: white;
+}
+.ab-icon{
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+}
+.ab-top{
+    padding: 50px 0;
+}
+p{
+    font-size: 20px;
+}
+.ab-bottom{
+   padding-top: 40px;
+   padding-bottom: 60px;
+}
+
 /* mediaquery */
 @media screen and (max-width:767px ) {
     .giu{

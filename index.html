@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bootstrap freelancer</title>
@@ -15,7 +16,7 @@
     <header class="bg-darkblu">
         <nav class="navbar navbar-expand-lg navbar-dark h-100">
             <div class="container-md">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand text-uppercase" href="#"><strong> Start Bootsrap</strong></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -25,10 +26,10 @@
                     <a class="nav-link text-uppercase text-white" aria-current="page" href="#portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="#">About</a>
+                    <a class="nav-link text-uppercase text-white" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-uppercase text-white" href="#">Contact</a>
+                    <a class="nav-link text-uppercase text-white" href="#contact-me">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -148,13 +149,30 @@
     <!-- FOOTER -->
     <footer>
         <section class="ab-top bg-blu">
-            <div class="container-md">
-                footer top
+            <div class="container-md d-flex">
+               <div class="col-lg-4 text-center">
+                <h4 class="text-uppercase text-white">Location</h4>
+                <p class="text-white">2215 John Daniel Drive Clark, MO 54243</p>
+               </div>
+               <div class="col-lg-4 text-center">
+                <h4 class="text-uppercase text-white">Around The Web </h4>
+                <div class="d-flex justify-content-center">
+                    <div class="ab-icon"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="ab-icon"><i class="fa-brands fa-google-plus-g"></i></div>
+                    <div class="ab-icon"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="ab-icon"><i class="fa-brands fa-linkedin-in"></i></div>   
+                </div>
+               </div>
+               <div class="col-lg-4 text-center">
+                <h4 class="text-uppercase text-white"> About Freelancer</h4>
+                <p class="text-white">Frrelanc is a free to use, open source Bootstrap theme created 
+                by <span class="cc-green">Start Bootstrap</span> </p>
+               </div>
             </div>
         </section>
         <section class="ab-bottom bg-darkblu">
-            <div class="container-md">
-                footer bottom
+            <div class="container-md text-center text-white">
+                Copyright @ Your Website 2019
             </div>
         </section>
     </footer>
