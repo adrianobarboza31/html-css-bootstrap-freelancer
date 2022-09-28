@@ -19,7 +19,7 @@
     background-color: var(--blu);
 }
 header{
-    height: 90px;
+    padding: 10px 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -104,16 +104,7 @@ h5{
     margin: 0 auto;
     padding-top: 3rem;
 }
-div.ab-btn{
-    background-color: #1ABC9C;
-   width: 70px;
-   height: 40px;
-   border-radius: 5px;
-}
-.ab-btn a{
-    text-decoration: none;
-    color: white;
-}
+
 i{
     font-size: 20px;
     color: white;
@@ -151,6 +142,13 @@ p{
     }
     .pdd{
         padding-right: 0;
+    }
+    .ddd{
+        display: flex;
+        flex-direction: column;
+    }
+    .trotz{
+        padding-top: 30px;
     }
     
 }
